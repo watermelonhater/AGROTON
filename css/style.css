@@ -113,3 +113,53 @@ body{
     font-size: 32px;
     line-height: 1.2;
 }
+
+.about__achievements{
+    display: flex;
+    margin-top: -55px;
+    margin-bottom: 90px;
+    gap: 260px;
+}
+
+.about__achievement{
+    border-radius: 20px;
+    background-color: #F4F4E7;
+    max-width: 580px;
+    padding: 14px 10px;
+    gap: 0 25px;
+    display: flex;
+}
+
+.about__achievement-imgbox{
+    min-width: 214px;
+    position: relative;
+}
+
+.about__achievement-arrow{
+    border: none;
+    padding: 0;
+    background-color: transparent;
+    position: absolute;
+    right: 0;
+    top: 5px;
+}
+
+.about__achievement-title{
+    font-weight: 500;
+    margin-bottom: 20px;
+    padding-top: 10px;
+}
+
+.about__achievement-text{
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.text--bold{
+    font-weight: 600;
+}
+
+.text--color{
+    font-weight: 600;
+    color: #F2A531;
+}
