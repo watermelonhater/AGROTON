@@ -310,24 +310,28 @@ body{
     color: #fff;
 }
 
-.products__link{
-    display: block;
-    margin-bottom: 50px;
-    font-weight: 500;
+
+.button{
+    display: inline-block;
+    width: 242px;
+    color: #fff;
     text-transform: uppercase;
     background-color:#0E0D0D;
     border-radius: 96px;
+    font-weight: 500;
     padding: 19px 97px 19px 38px;
     position: relative;
-    color: #fff;
-    width: 242px;
-    margin: 0 auto;
 }
 
-.products__link svg{
+.button svg{
     position: absolute;
     top: 3px;
     right: 4px;
+}
+
+.products__link{
+    display: block;
+    margin: 0 auto;
 }
 
 .slogan{
@@ -353,3 +357,101 @@ body{
 .slogan__img{
     margin-top: -135px;
 }
+
+.partners{
+    padding: 130px 0 150px;
+}
+
+.partners__inner{
+    display: flex;
+    justify-content: space-between;
+    gap: 0 120px;
+}
+
+.partners__info{
+    max-width: 580px;
+    display: flex;
+    flex-direction: column;
+}
+
+.partners__info-title{
+    font-family: 'WorkSans-Regular', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 1.3;
+}
+
+.partners__info-text{
+    font-weight: 300;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: auto;
+}
+
+.partners__box-top{
+    display: flex;
+    justify-content: space-between;
+    background-color: #F4F4E7;
+    border-radius: 10px;
+    gap: 0 19px;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.partners__box-top::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    background-image: url(../images/logo-min.png);
+    width: 63px;
+    height: 56px;
+    top: 30px;
+    left: 20px;
+}
+
+.partners__box-list{
+    padding-left: 24px;
+    padding-bottom: 30px;
+    margin-top: auto;
+}
+
+.partners__box-item + .partners__box-item{
+    margin-top: 15px;
+}
+
+.partners__box-item{
+    font-weight: 500;
+    padding-left: 39px;
+    position: relative;
+}
+
+.partners__box-item::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    background-image: url(../images/partners-dots.svg);
+    width: 24px;
+    height: 24px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.partners__box-item span{
+    font-weight: 600;
+    color: #F2A531;
+}
+
+.partners__box-text{
+    font-weight: 300;
+    font-size: 20px;
+    background-color: #0D1615;
+    border-radius: 10px;
+    color: #fff;
+    padding: 30px 80px 30px 30px;
+}
+
+.partners__box-text span{
+    font-weight: 700;
+    color: #F2A531;
+}
+
