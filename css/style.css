@@ -528,3 +528,40 @@ body{
 .blog__item-text{
     color: #667085;
 }
+
+.footer{
+    background-color: #0E0D0D;
+    padding: 100px 0;
+    color: #fff;
+}
+
+.footer__top{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    padding-right: 100px;
+}
+
+.footer__element-title{
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.footer__item + .footer__item{
+    padding-top: 15px;
+}
+
+.footer__item-address{
+    font-style: normal;
+}
+
+.footer__bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+    border-top: 1px solid #fff;
+    font-size: 14px;
+}
+
